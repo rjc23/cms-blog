@@ -28,7 +28,9 @@
       "required": true
     },
     "urlSlug": {
-      "type": "string"
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }
