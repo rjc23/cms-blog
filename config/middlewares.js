@@ -11,7 +11,7 @@ module.exports = [
             "'self'",
             "data:",
             "blob:",
-            "your-s3-url",
+            "*.amazonaws.com",
           ],
           "media-src": ["'self'", "data:", "blob:"],
           upgradeInsecureRequests: null,
