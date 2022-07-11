@@ -54,7 +54,7 @@
       "required": true
     },
     "minsToRead": {
-      "type": "string"
+      "type": "integer"
     }
   }
 }
