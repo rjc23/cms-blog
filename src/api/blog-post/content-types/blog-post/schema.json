@@ -52,6 +52,9 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "minsToRead": {
+      "type": "string"
     }
   }
 }
