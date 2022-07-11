@@ -12,16 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Heading": {
+    "heading": {
       "type": "string",
       "required": true
     },
-    "Type": {
+    "type": {
       "type": "enumeration",
       "enum": [
-        "personal",
-        "code"
-      ]
+        "code",
+        "life",
+        "misc"
+      ],
+      "required": true
     },
     "Content": {
       "type": "richtext",
@@ -31,6 +33,27 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "socialImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tags": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 180,
+      "minLength": 60
     }
   }
 }
