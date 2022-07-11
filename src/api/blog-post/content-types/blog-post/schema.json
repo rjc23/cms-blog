@@ -51,9 +51,7 @@
     },
     "description": {
       "type": "text",
-      "required": true,
-      "maxLength": 180,
-      "minLength": 60
+      "required": true
     }
   }
 }
