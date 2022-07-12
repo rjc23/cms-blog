@@ -55,6 +55,16 @@
     },
     "minsToRead": {
       "type": "integer"
+    },
+    "heroImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
