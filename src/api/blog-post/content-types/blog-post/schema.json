@@ -52,23 +52,6 @@
     "description": {
       "type": "text",
       "required": true
-    },
-    "minsToRead": {
-      "type": "integer"
-    },
-    "heroImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "shortDescription": {
-      "type": "text"
     }
   }
 }
