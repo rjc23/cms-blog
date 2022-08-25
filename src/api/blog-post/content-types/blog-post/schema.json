@@ -52,6 +52,12 @@
     "description": {
       "type": "text",
       "required": true
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag",
+      "mappedBy": "blog_post"
     }
   }
 }
