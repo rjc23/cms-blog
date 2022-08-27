@@ -55,9 +55,9 @@
     },
     "tag": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToMany",
       "target": "api::tag.tag",
-      "mappedBy": "blog_post"
+      "inversedBy": "blog_posts"
     }
   }
 }
